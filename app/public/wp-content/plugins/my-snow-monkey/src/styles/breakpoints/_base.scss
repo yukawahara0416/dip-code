@@ -1,0 +1,32 @@
+/******************************************************************
+
+Stylesheet: ベーススタイル
+
+******************************************************************/
+
+html {
+  font-size: 62.5%; /* =10px */
+}
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: $font-weight-base;
+  line-height: $line-height-base;
+  color: $color-text;
+  background: $color-background;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: $font-family-code;
+  font-size: inherit;
+}
