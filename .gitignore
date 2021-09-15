@@ -15,7 +15,8 @@ app/public/wp-content/plugins/*
 app/public/wp-content/plugins/my-snow-monkey/src/templates
 
 # src directory files
-src/styles/style.css
+app/public/wp-content/plugins/my-snow-monkey/src/styles/style.css
+
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,node,yarn,wordpress
